@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page Food Shop</title>
+</head>
+
+<!-- link for adding font -->
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+<!-- link for adding icons -->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+    /* CSS for header*/
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        display: block;
+        width: "100%";
+
+    }
+
+    .left {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        line-height: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        line-height: 100px;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 45px;
+        top: 40px;
+        display: inline-block;
+    }
+
+
+    /* CSS for navbar */
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(97, 173, 84);
+    }
+
+    #address {
+        top: 100px;
+        font-size: 20px;
+    }
+
+    /* CSS for Home */
+    .home {
+        margin: 122px;
+    }
+
+    .home p {
+        font-size: 20px;
+    }
+
+    .home h3 {
+        text-align: center;
+        color: rgb(239, 29, 71);
+        font-size: 40px;
+        background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1640774%2Fpexels-photo-1640774.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-ella-olsson-1640774.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Ffood%2F&tbnid=kJ5btsaXpvKqTM&vet=12ahUKEwisrpel6oD8AhUPgtgFHbYICqMQMygoegUIARCXAg..i&docid=c1W1wgDZbrCp_M&w=4960&h=3307&q=food%20imge%20download&ved=2ahUKEwisrpel6oD8AhUPgtgFHbYICqMQMygoegUIARCXAg");
+    }
+
+    table {
+        justify-content: center;
+        width: 80%;
+    }
+
+    .cat {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: rgb(42, 180, 21);
+        font-weight: bolder;
+    }
+
+    .Item li {
+        font-size: 30px;
+    }
+
+    /* CSS for User Details */
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 60%;
+        padding: 1px;
+        border: 2px solid rgb(65, 63, 63);
+        margin: auto auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(156, 222, 91);
+    }
+
+    .container button {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    /* CSS for Horizontal Line */
+    hr {
+        height: auto;
+        line-height: 200px;
+    }
+</style>
+
+<body>
+    <header class="header" id="homepart">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://freepngimg.com/thumb/healthy_food/11-2-healthy-food-picture.png" alt="">
+            <div>FOOD</div>
+            <div>&nbsp; CORNER</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#homepart">Home</a></li>
+                <li><a href="#aboutpart">About Us</a></li>
+                <li><a href="#foodavailability">Food Availability</a></li>
+                <li><a href="#contactpart">Contact </a></li>
+            </ul>
+        </div>
+
+
+        <!-- Right box for buttons -->
+        <div class="mid">
+            <button class="btn"><span class="fa fa-phone" aria-hidden="true"></span>9998887776</button>
+            <button class="btn"><span class="fa fa-envelope-o" aria-hidden="true"></span>foodcorner@gmail.com</button>
+        </div>
+        <div class="mid" id="address">
+            Address: RoadNo, Street, City, State
+        </div>
+    </header>
+    <hr>
+    <div class="home" id="aboutpart" width="70px">
+        <h3>The FOOD CORNER shop to fullfill all your food goals!!!</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perferendis delectus eligendi architecto
+            mollitia consequatur sequi quo quas vel blanditiis minima, voluptate esse cupiditate vitae dicta porro
+            quidem odio atque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et alias laudantium beatae quae, a impedit iure
+            sint quo, magnam sit nemo dignissimos rerum iusto. Nisi ex laboriosam assumenda dolorum odit!
+        </p>
+        <p>&nbsp;</p>
+    </div>
+    <hr>
+
+    <div class="form-group" id="foodavailability">
+        <table>
+            <tr>
+                <td>
+                    <ul>
+                        <li class="cat" type="none">
+                            Veg
+                        </li>
+                        <li>Item1
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKJZqbcdUeSoPmX_Et_-hd5xvqTH810RZnIQ&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item2
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD--TVd-PuTMMVAy4jkmGCm7CIiFdlEWprFQ&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item3
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-JmXbn37YF6C1r-NGInZC_bYma0_ZUshE3yWoIBzOJjgH_NkmWDGnTnufhckEp6O08rc&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <ul>
+                        <li class="cat" type="none">
+                            Non veg
+                        </li>
+                        <li>Item1
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYqN-Yzb3zQ70bxElytoJeTCgfOXIwb720A&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item2
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeS4O7g1i8BNBmwL06ruVbN9SjrODtSuc1gQ&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item3
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqTLdGqdVp6eZEjf2ky2ejEnT3lFPoigwaRA&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <ul>
+                        <li class="cat" type="none">
+                            Chinese
+                        </li>
+                        <li>Item1
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NCLznrYAA9yC9nzxuPZioM9wsb8Bb-LKIHP4usfvKQ&s"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item2
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j7sElro6Hn8Iohg6MhpZtmXh3WtLSl7A8w&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                        <li>Item3
+                        <li type="none">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0gqX3KUoBdw_NWNYcvj9QXWjcBjZNZKFuw&usqp=CAU"
+                                width="20%">
+                        </li>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="container" id="contactpart">
+        <h1>Add your details , send us feedback and know about the offers at the earliest</h1>
+        <!-- <form action="noaction.php"> -->
+        <!-- <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your feedback" cols="20px" rows="20px"> -->
+            <!-- <textarea name="myText" cols="20" rows="10">Enter your feedback</textarea> -->
+        <!-- </div> -->
+        <button class="btn"><a href="http://localhost:8080/Projects/projectFoodShopLandingPage/Feedback.php">Submit</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
